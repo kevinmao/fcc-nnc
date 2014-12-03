@@ -1,0 +1,16 @@
+~/workspaces/fcc-nnc-cs229/fcc-data/xml
+
+          14-28-RAW-Solr-1.xml = 100000
+          14-28-RAW-Solr-2.xml = 100000
+         14-28-RAW-Solr-3a.xml = 65000
+         14-28-RAW-Solr-3b.xml = 35000
+          14-28-RAW-Solr-4.xml = 100000
+          14-28-RAW-Solr-5.xml = 46719
+   R-14-28-02-SOLR-Raw-001.xml = 70875
+   R-14-28-02-SOLR-Raw-002.xml = 100000
+   R-14-28-02-SOLR-Raw-003.xml = 100000
+   R-14-28-02-SOLR-Raw-004.xml = 100000
+   R-14-28-02-SOLR-Raw-005.xml = 59676
+   R-14-28-02-SOLR-Raw-006.xml = 144593
+   R-14-28-02-SOLR-Raw-007.xml = 150000
+total = 1171863

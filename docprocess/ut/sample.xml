@@ -1,0 +1,1281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+ <int name="status">0</int>
+ <int name="QTime">187</int>
+ <lst name="params">
+  <str name="explainOther"/>
+  <str name="indent">on</str>
+  <str name="wt">standard</str>
+  <str name="hl"/>
+  <str name="version">2.2</str>
+  <str name="rows">100000</str>
+  <str name="fl">*,score</str>
+  <str name="start">0</str>
+  <str name="q">proceeding:14-28 AND dateRcpt:[2014-01-01T00:00:00.000Z/DAY TO 2014-07-19T00:00:00.000Z/DAY]</str>
+  <str name="qt">standard</str>
+  <str name="fq"/>
+ </lst>
+</lst>
+<result name="response" numFound="446719" start="0" maxScore="2.9402447">
+ <doc>
+  <float name="score">2.9402447</float>
+  <arr name="applicant"><str>Eugene Wood</str></arr>
+  <arr name="applicant_sort"><str>Eugene Wood</str></arr>
+  <arr name="brief"><bool>true</bool></arr>
+  <arr name="city"><str>Alameda</str></arr>
+  <arr name="dateRcpt"><date>2014-05-05T04:00:00Z</date></arr>
+  <arr name="disseminated"><date>2014-05-06T14:36:32.7Z</date></arr>
+  <arr name="exParte"><bool>false</bool></arr>
+  <arr name="id"><long>6017620731</long></arr>
+  <arr name="modified"><date>2014-05-06T14:36:32.696Z</date></arr>
+  <arr name="pages"><int>1</int></arr>
+  <arr name="proceeding"><str>14-28</str></arr>
+  <arr name="regFlexAnalysis"><bool>false</bool></arr>
+  <arr name="smallBusinessImpact"><bool>false</bool></arr>
+  <arr name="stateCd"><str>CA</str></arr>
+  <arr name="submissionType"><str>COMMENT</str></arr>
+  <arr name="text"><str>7521107906.txt 
+In the interest of preserving the liberty on the internet that I and other users 
+enjoy, please classify ISPs as telecommunication services under Title 2 of the 
+Communications Act.
+I would recommend utilizing Mozilla's suggested method to accomplish this : 
+https://blog.mozilla.org/netpolicy/files/2014/05/Mozilla-Petition.pdf
+As a content producer and a content consumer, losing this equity in how my data and 
+others is treated would affect my life and livelyhood in a very significant negative
+way.
+Page 1
+
+</str></arr>
+  <arr name="viewingStatus"><str>Unrestricted</str></arr>
+  <arr name="zip"><str>94501</str></arr>
+ </doc>
+ <doc>
+  <float name="score">2.9402447</float>
+  <arr name="applicant"><str>Eva Shtern</str></arr>
+  <arr name="applicant_sort"><str>Eva Shtern</str></arr>
+  <arr name="brief"><bool>false</bool></arr>
+  <arr name="city"><str>seattle</str></arr>
+  <arr name="dateRcpt"><date>2014-05-05T04:00:00Z</date></arr>
+  <arr name="disseminated"><date>2014-05-06T14:36:32.75Z</date></arr>
+  <arr name="exParte"><bool>false</bool></arr>
+  <arr name="id"><long>6017618460</long></arr>
+  <arr name="modified"><date>2014-05-06T14:36:32.75Z</date></arr>
+  <arr name="pages"><int>15</int></arr>
+  <arr name="proceeding"><str>14-28</str></arr>
+  <arr name="regFlexAnalysis"><bool>false</bool></arr>
+  <arr name="smallBusinessImpact"><bool>false</bool></arr>
+  <arr name="stateCd"><str>WA</str></arr>
+  <arr name="submissionType"><str>COMMENT</str></arr>
+  <arr name="text"><str>7521105625.txt 
+We tend not to branch out into the political discussion here at Mobile Nations all 
+that often. Politics has little bearing on the day-to-day use of mobile devices. But
+on occasion, things from the political world cross into our little world of 
+smartphones and tablets. Take SOPA back in 2012, for example. Meant to address the 
+real problem of content piracy, SOPA overreached and the reaction of the American 
+people was enough to kill the bill while still in committee.
+We're facing another intersection of politics and technology today, and it's time 
+that we the people made our voices heard. Net neutrality is the issue of the day, 
+and the way that governments move on this issue will have far-reaching consequences 
+for decades to come.
+Just what is net neutrality?
+In its simplest form, net neutrality is the principle that all traffic on the 
+internet should be treated equally, without discrimination as to its source, 
+destination, or content.
+Net neutrality is the principle that all traffic on the internet should be treated 
+equally, without discrimination as to its source, destination, or content.
+That discrimination boils down in reality to the role of the service provider. For most of us, that's a hardwire internet service provider (ISP) for our home and work internet connections, as well as our cellular service provider for the internet connections on our mobile devices. These companies are the backbone of our internet connection, and for most they're our only viable connection to the internet.
+That in and of itself is not a bad thing. Where things get bad is when these companies that manage the infrastructure of the internet attempt to use that infrastructure as a weapon to control the traffic on the internet.
+The concept of net neutrality comes into the real world when ISPs, both landline andcellular, start to treat traffic differently by giving preferential treatment to those that pay for it.
+Net neutrality in the real worldBeing in control of something like the infrastructure of the internet gives you tremendous power. That power is an easy thing to abuse.
+You, by virtue of reading this editorial, are a user of the internet. You are payingyour ISP to relay this content through the internet and to your screen. It's likely your access is tiered in some way. Most hardline connections in the United States are tiered based on the service speed, while most mobile connections are tiered based on the amount of data you can download during the billing period. There is nothing inherently wrong with either method.
+Being in control of something like the infrastructure of the internet gives you tremendous power.
+This website is also paying for internet access for our servers. We pay our ISP to send our content to their servers. There's a good chance that our ISP and your ISP are not the same company. In that case, ISPs have peering agreements with each other, with traffic flowing freely between them. There's an understanding that there's no need for an exchange of money because the traffic and thus the money would all balance out in the end. Peering agreements are the equivalent of "calling it even". I owe you $50, you owe me $50 ????????? we could swap Grants, or we could just shake and call it even.
+But not all peering agreements are working out in this age of streaming media. Take Netflix as an example. Streaming one hour of Netflix at HD quality adds up to a little over 2GB worth of data. That 2GB comes from Netflix's server through Cogent (their ISP) to your ISP through to your screen. The only way things balance out in afair peering agreement is if your ISP is sending 2GB back through Cogent (but not necessarily to Netflix).
+Page 1
+
+7521105625.txt 
+By most measures, Netflix accounts for around a third of US internet traffic. They 
+are by far the largest single source of data downloads, but they don't even register
+in the top ten for uploads. That should come as no surprise, considering that 
+there's nothing that Netflix users upload to the service other than the basic 
+command that triggers the streaming video in the first place.
+So the peering agreement between Cogent and, say, Comcast is out of balance, and 
+it's all Netflix's fault. Even if it means that the cost will be passed on to the 
+consumer, Netflix should pay to make up the difference, right?
+If you were expecting me to say "wrong", you are mistaken. It doesn't go against the
+principles of net neutrality to manage peering agreements that are out of balance. 
+There's nothing inherently wrong about Comcast or Verizon striking agreements with 
+Netflix to help manage the load that the streaming service has put on their internet
+service. While this means that the cost will eventually be passed on to consumers, 
+it also means that Comcast and Verizon can take that extra money and use it to 
+improve their infrastructure. They know that the customer blames them for a poor 
+Netflix stream.
+Infrastructure as a weaponWhere this has gone wrong is how Comcast and Verizon managed to coerce Netflix into the agreements. All three are large, profitable businesses, and in the interests of staying profitable they're all loathe to part with money if they don't have to.
+Comcast CEO Brian RobertsComcast CEO Brian Roberts, (Source: Comcast)
+By controlling the infrastructure that connects Netflix to their customers, Comcast,Verizon, and other ISPs hold a strong hand against Netflix. They're able to inflict damage on Netflix, and they possess much more sophisticated public relations and political lobbying mechanisms than Netflix could ever dream of. So they can get awaywith things like artificially throttling the speed on Netflix streams to customers and publicly blaming Netflix for it. When the customers complain about their Netflixstream quality, the ISP just points to Netflix and says "they're crippling our network!"
+With customers uneducated as to how the internet functions and what their ISP is doing with Netflix's traffic, the customer would naturally blame Netflix. We might rank cable companies as the most despised in America, but with the vast majority of us lacking in technical knowledge about how the infrastructure of the internet works, we're willing to take the cable company at their well-produced word.
+At the same time, Comcast is providing their own video-on-demand service over the same cables with a similar per-user/hour load, and not placing any restrictions on the bandwidth it has available.
+In January of 2014, Netflix agreed to compensate Comcast for the massive traffic load that the video streams placed on their networks, with the interconnection fees beginning to be paid at the end of February. By the middle of April, Comcast customers saw the speed and thus quality of their Netflix streams dramatically improve ????????? by 65%.
+It's highly unlikely that Comcast was able to upgrade their infrastructure so substantially as to boost their ranking from second-to-last up to third-best in two months. Netflix payed Comcast's ransom, and they got what they were promised.
+Netflix's speeds on Verizon have ticked up slightly since their recently-signed agreement, and it wouldn?????????t be surprising to see a substantial jump there either. Netflix has also stated that they are working on similar agreements with other providers ????????? the chart below assembled by The Washington Post tells youall you need to know about which ISPs Netflix is likely negotiating most intently with.
+Page 2
+
+7521105625.txt 
+Change in Netflix download speeds since Jan. 2013, by ISP
+Woe is the big profitable corporation
+Before you accuse me of offering pity to Netflix, I understand that this is a matter
+of multiple large and highly profitable companies haggling over millions of dollars.
+It's Netflix, it's purely an entertainment service, and while it's frustrating that 
+the speed that you're paying your ISP for to get that service might not be the speed
+that you're getting to stream the latest season of House of Cards, that's not the 
+end of the world. So what if Frank Underwood's hair and Claire Underwood's dresses 
+aren't as crisp as they could be? It's just a TV show.
+And you're right. It's a pain that you're not getting what you paid for, but that's 
+all it is, a pain. Netflix is entertainment, and entertainment like Netflix is among
+the most superfluous of human needs. It's nice to have, and it's even nicer when 
+it's better quality, but it's merely padding the quality of our lives.
+Cable companies shouldn't be coercing deals by artificially choking their traffic.
+"But it's the principle of the thing!" you shout. And yes, you are right. Netflix 
+absolutely should cover their share of the mismatched peering arrangement. But Netflix shouldn't have been coerced into such a deal by having the cable companies put an artificial choke on their traffic. Perhaps that punishment was what was needed to force Netflix into bowing to common sense and picking up their fair share.
+But the cable companies went after Netflix because it's a big and visible target, one that we've all heard of and many of us use. Most of us haven't heard of companies like Cogent or Level 3, business ISPs that are responsible for delivering Netflix's traffic to our own ISPs. When Comcast goes after them, we don't notice. Infact, Comcast has already managed to wring extra money out of Level 3 for their Netflix traffic, and they're still trying to do the same with Cogent even though Netflix is paying them directly as well.
+It's easy to not care about the plight of corporations like Netflix, Cogent, and Level 3 getting shook down by corporations like Comcast and Verizon. They can affordit, or they can at least afford the lawyers to fight it out. Whatever, right?
+Setting a precedent for extortionNetflix being extorted by ISPs is an isolated incident, at least for now, but it sets a truly bad precedent. Netflix can afford it, and so too will Google when ISPs start actively throttling YouTube streams. Apple can afford to pay to ensure their content is delivered in a timely fashion, and so too can Amazon.
+Can the smaller companies just getting up on their feet afford to pay the ransom demands of Comcast? Not likely, but their traffic will be held hostage just the same. This sets a dangerous precedent that will eventually trickle down to smaller and smaller internet content providers: pay up or be throttled. If you can't pay, the service you're attempting to provide will suffer, customers will leave for faster services, your revenue will drop, and you'll never be able to catch up to paythe racket to get your data flowing again.
+This sets a dangerous precedent that will eventually trickle down to smaller internet content providers: pay up or be throttled.
+And once the ISPs have squeezed all of the money they can out of the content providers, it's all but assured that they'll turn to their customers. "Your streaming of Netflix is putting a huge burden on our overtaxed network," they'll say. "I know you're paying for a fast connection, but if you're going to be streaming content like this, you're going to have to pay an additional fee so we canhelp build up our infrastructure."
+These arrangements severely complicate how the internet works. Instead of Netflix paying their ISP for access to the internet and you paying your ISP for access to the internet, Netflix is now paying their ISP and your ISP for what you are already 
+Page 3
+
+7521105625.txt 
+paying for. And your ISP bill isn't going to go down as a result.
+In the last fiscal year, Comcast raked in a very healthy profit of $6.2 billion. To 
+say that they need to be payed off by Netflix to afford to upgrade their network to 
+handle what it is clearly already capable of handling is ludicrous.
+Comcast is not alone here. Cox Cable and Comcast have been found to be blocking the 
+use of VPNs (virtual private networks, typically used by businesses so employees can
+access the corporate network from the outside world) by their residential customers.
+AT&amp;T has threatened customers using cellular Wi-Fi hotspots as their home network 
+with claims of "theft of service" constituting a federal crime.
+That any carrier can discriminate against any packet of data for any reason has 
+great potential to cripple the internet.
+In stumbles the FCC
+In the United States we have a governmental organization charged with regulating 
+electronic communications: the Federal Communications Commission. It is an 
+independent agency of the federal government, with broad authority over telephones, 
+broadband communications, and the wireless spectrum. The FCC possess substantial power to regulate these industries with the goal of promoting "rapid, efficient, Nation-wide, and world-wide wire and radio communication services with adequate facilities at reasonable charges."
+In short, the FCC's purpose is to ensure that the people and businesses of the United States have the best communications tools at a reasonable cost. The FCC is lead by five commissioners, each appointed by the then President of the United States to serve a five year term. These commissioners are approved by the Senate, and no more than three may be from the same political party and none may have a financial interest in the businesses that the FCC regulates.
+From there they are an independent body, supposedly free from political manipulations. Their goal isn't reelection or a higher political office ????????? it's to manage the communications industry of the United States for maximum benefit of its citizens.
+And so, with ISPs like Comcast and Verizon extorting content providers like Netflix to pay for the traffic that their customers were already paying for, the FCC steppedin. What was happening here was pushing against those principles of rapid, efficient, and reasonable that the FCC is meant to uphold.
+And then the FCC fumbled. Hard. Repeatedly. The FCC fumbled for years in trying to regulate ISPs with a light and guiding touch. With billions in profit at stake and an army of high-dollar corporate attorneys at their back, the ISPs have fought hard against these attempts to ease them into place.
+In 2010, the FCC put in place a set of net neutrality rules ????????? the Open Internet Order ????????? that required transparency from and prohibited blocking anddiscrimination by ISPs. These rules were immediately challenged by those ISPs, and earlier this year we saw the case of Verizon v. FCC in the D.C. Circuit Court of Appeals end with the blocking and discrimination portions of the Open Internet Ordervacated.
+Eight years ago the FCC decided on the wrong words to describe ISPs in the eyes of the law.
+The reasoning for the court's decision? The FCC's power to enforce such rules only applies to common carriers, and according to the FCC's own rulings, ISPs are not considered to be common carriers. A common carrier is a company that is regulated bythe government to provide a service without discrimination. In exchange, these carriers are generally immune from liability for having carried something ????????? you can't sue the phone company for connecting calls between mobsters, for example. 
+Page 4
+
+7521105625.txt 
+Airlines, taxicab companies, and railroads fall under common carrier laws, as do 
+public utilities and most telecommunications providers. Except for internet services
+providers, that is.
+The hiccup in the plan here dates back to 2005, when the FCC classified ISPs as 
+information services and not common carriers. Few at the time had anticipated what 
+the internet would look like eight years from then.
+The funny thing is, in some ways the government does treat ISPs like common 
+carriers. Thanks to the Digital Millennium Copyright Act of 1998, carriers are 
+immune from liability for the content that is distributed over their networks. But 
+thanks to their ability to fund expensive and highly effective lobbying efforts, 
+ISPs have largely avoided the restrictions of common carrier status while reaping 
+the benefits when it suits them.
+The FCC's 2005 classification of ISPs as information services meant that their 2010 
+Open Internet Order was mostly toothless. Because 8 years ago they had decided on 
+the wrong words to describe ISPs in the eyes of the law, the strongest net 
+neutrality provisions they had on the table were swept away.
+How do we fix this?FCC Chairman Tom WheelerFCC Chairman Tom Wheeler, (Source: Los Angeles Times)
+The argument for how to fix this issue is relatively simple: the FCC declares internet service providers to be common carriers. The regulations they had attemptedto enact in 2010 would then be applicable and we would all be living in a world of internet free from the pressure for everybody to pay two or three times for the sameservice.
+The appeals court that struck down the FCC's rules even acknowledged this, calling out the technicality in the FCC's rules and not disputing that the FCC had the authority to declare ISPs to be common carriers. No doubt such a move would bring animmediate court challenge and keep those high-priced telco lawyers gainfully employed for years to come.
+But in the end this is the FCC's decision to make. They can either keep trying to nudge and ease ISPs to into place with a gentle touch that has so far failed miserably, or they can declare ISPs to be common carriers and step up to the fight.
+The FCC can stand up for what's right.
+We believe in the power of capitalism, but also in sensible regulation. We believe that all web traffic should be treated equally, be it reading scholarly articles on 
+quantum mechanics, watching House of Cards on Netflix, or participating in the communities here on Mobile Nations. We believe that access to information should notbe restricted merely because there is a lot of it. We believe that fair access to the internet and everything on the web is all but essential for success in this age,and that limiting that access will impede not just the users of the internet, but the nation as a whole.
+Net neutrality isn't just about who should pay for the bandwidth that a streaming show on Netflix uses. Net neutrality is about equal access to everything the internet has to offer, for the benefit of the citizens of the United States and the rest of the world.
+Fair access to the internet and everything on the web is all but essential for success in this age. Limiting that access impedes the entire nation.
+Right now there's a petition going around on the White House's We The People platform calling on the administration of President Obama to reclassify ISPs as common carriers. Such a petition is a toothless measure, and not just because it's anon-binding petition (We The People only requires that the administration issue a written response to the petitioners ????????? and those responses have included 
+Page 5
+
+7521105625.txt 
+petitions to build a Death Star and deport Justin Bieber, both worthy movements).
+Earlier we mentioned that the FCC is an independent agency of the United States 
+government. Its commissioners are appointed by the President and approved by 
+Congress, and like anybody they can be dragged before Congress for hearings, but 
+they operate independently of the rest of the government per their chartering by the
+Communications Act of 1934. Of course, that doesn't mean they're immune from 
+pressuring by Congress, the White House, or telecom lobbyists. It also doesn't mean 
+they're immune from pressuring by you.
+A White House petition will do little good (we aren't even going to bother linking 
+to it here). President Obama has twice campaigned on a platform that included net 
+neutrality, so his administration's position on the issue is clear. He has appointed
+FCC commissioners that he felt would best uphold his goals for the FCC. They may 
+have fumbled so far in doing that, but they still can get their act together before 
+it's too late for the internet.
+If you want to express your desire for a free and open internet, there is something 
+you can do: tell the FCC.
+Tell the FCC to do what is rightFCC Chairman Tom Wheeler has said that he "won't hesitate" to declare ISPs common carriers in order to ensure that the "the 'next Google' or the 'next Amazon' is [not] delayed or deterred", but we are fast approaching the point where we will be too far down the rabbit hole to reverse course and declare ISPs to be common carriers.
+The declaration of common carrier status for ISPs has to come now. More talking, more threats, and more negotiating won't solve the problem here. Definitive and decisive action is what is needed to ensure that access to the internet remains freeand open to all.
+We are calling on the FCC to declare internet service providers to be common carriers and to apply applicable regulations to ensure the principles of net neutrality are upheld. The future of the internet depends on it. The future of the United States of America depends on it. Do not let the information access of the people of this nation be held captive by corporate greed.
+We urge you to contact the FCC yourself to ensure that your voice is heard by the commissioners.
+Chairman Tom Wheeler:
+xxxxxxxx@TomWheelerFCCCommissioner Mignon Clyburn:
+xxxxxxxx@MClyburnFCCCommissioner Jessica Rosenworcel:
+xxxxxxxx@JRosenworcelCommissioner Ajit Pai:
+xxxxxxxx@AjitPaiFCCCommissioner Michael O?????????Rielly:
+Mike.O'xxxxxxxx@mikeofccContact the FCC:
+Page 6
+
+7521105625.txt 
+xxxxxxxx
+File a complaint
+@FCC
+Call: 1-888-225-5322
+Federal Communications Commission
+445 12th Street, SW
+Washington, DC 20554
+Net neutrality is worth fighting for
+We're talking about the future of the internet as a free and open information 
+platform for everybody on the planet.
+Net neutrality is the right thing to stand up for. Our ISPs are beholden to their 
+shareholders and maximizing value for them. There's nothing wrong with that. The FCC
+is beholden to us, the people whose rights it was created to protect. Remind them of
+that.
+Talk Mobile
+Phil Nickinson
+Rene Ritchie
+Kevin MichalukDaniel RubinoQ:1 Comments339Top Comments (1) | All Comments (339) Sort:  Please Login or Sign Up to make a comment.Pages1 2 3 4 5 6 7 NEXT ????????? LAST ? sk8er_tor 2 1Only in the USA... sigh.
+ MowDownJoe 4 0If you think this won't affect you because you don't live in the US, you're sadly mistaken.
+ JoshMD90 0 0Serious question - I'm not in the US, I know this will affect me, but can I still dosomething about it? Contacting the FCC as a UK citizen seems like it will be water off a ducks back somewhat no?
+ Timelessblur 0 0
+Tell you the truth it can. It means more voices. Also you add in fact that you will look for non american companies and companies that choose not to route data threw the US. Hurting the US economy.
+ Robb Nunya 0 0It won't really affect you that way. When it will affect you is when your local regulatory agency decides that it's a good idea and then you're in the same boat.
+ SteveW928 6 hours ago 0 0Yea, as a number of countries seem to follow trends in the USA. Look at the telephone and Internet situation we have in Canada for example.
+ frettfreak 0 0Yeah, green is universal.
+ sk8er_tor 1 0
+Page 7
+
+7521105625.txt 
+I didn't say this won't affect other countries. What I'm saying is that I'm not 
+surprised that American companies will try to exploit the pipes in order to make 
+more money and that congress will even entertain this idea. When I saw this post, 
+the first thing that came to mind is I wished all tech blogs/websites had teamed 
+together to launch a simultaneous campaign on this topic because it's a very 
+important one.
+ 
+SteveW928 6 hours ago 0 0
+They actually have been, for years! The problem is sustaining this effort, 
+especially since it just keeps coming back over and over, as once anyone isn't 
+paying close attention, the FCC, courts, etc. keep trying to swing it back in the 
+ISPs favor, as they are in pay by the telcos... a LOT of pay.
+And, then in the USA, there was a big tipping point a couple years back when the 
+telcos got the smart idea to turn this into a partisan issue politically. They 
+equated more regulation with 'socialism' which immediately scared a massive audience
+of non-thinking individuals to a knee-jerk reaction. Some popular folks like Glenn 
+Beck and Tea Party, etc. started supporting an anti-Net Neutrality campaign... and 
+the balance swung quite a bit. Interestingly, until that point, EVERYONE but the telcos supported Net Neutrality, across the political spectrum.
+ Dizfunctions 1 0I think he means it's a common trait of US companies to exploit their customers. Europe has already taken measures against these types of actions, and the FCC is still issuing idle threats...
+Posted via Android Central App
+ sk8er_tor 0 0Exactly! Thank you! At least one person got my point.
+ J0HNGALT 0 0"exploit"
+Offering you a service is not exploiting you. The responsibility of a business is tomake a profit. The pursuit of these profits benefit society as a whole.
+Posted via Android Central App
+ RyanGermann 3 0Offering an essential service in a monopolistic / duopolistic+collusion environment then gouging people is exploitation.
+ J0HNGALT 1 2The collusion is between corporation and government! Giving the government more power is not the solution.
+Monopolies do not exist in a free market. The vast majority of Americans have accessto more than one isp but I would agree there should be more. If you want to improve this issue then we need to get the government out of the way not give it more power to auction off to the highest bidder.
+Posted via Android Central App
+ ChrisLynch 1 0Wait, what? "Monopolies don't exist in a free market?" Are you kidding? Just look at
+Page 8
+
+7521105625.txt 
+Comcast and Time Warner, then the reports that AT&amp;T wants to buy DirecTV. That would
+become a duopoly. Hell, if they then merge, it would become a monopoly. And Monopoly
+doesn't mean there are no other companies to compete. It means that one entity has 
+the power and ownership of the entire market that can starve and destroy 
+competition. Monopolies happen WITHOUT Government intervention. Do you not even know
+the history of AT&amp;T?
+ 
+J0HNGALT 2 1
+When people talk about monopolies what they are really arguing against is a firm 
+that can set it's own price and receive it. The other things are merely symptoms of 
+this root problem. The reality, as I originally noted, is this does not happen in a 
+free market. Government intervention creates this scenario.
+Yes I know the history of AT&amp;T and I'm glad you cited it because it's a perfect 
+example of what I'm describing and evidence why people should be against net 
+neutrality.
+In short: AT&amp;T had a monopoly due to the government giving it parents. These expired
+in the late 1800 and within a few decades hundreds of competing firms rose up eventually capturing over half the market.
+AT&amp;T convinced government officials during WW1 to work together to offer telephone as a "public good" in the same way people on this thread are citing Internet as a necessity of life. Politicians bought in because they were able to win votes by diverting taxes to helping a private comply offer a service people wanted. AT&amp;T utilized government regulators to run out nearly all of those small competing firms in the same way that ISP lobbyist today have an incentive to work with state and local governments to block new ISPs from forming.
+Government isn't the answer; it's the problem.
+Posted via Android Central App
+ J0HNGALT 0 1Patents*
+Posted via Android Central App
+ usafballer 1 0Thank you so much John for you voice of sanity and reason. The history lesson is oneeveryone forgets. All my tech blogs, likely authored by younger guys seemingly freshout of college, have not done their homework. I can't avoid all this rhetoric on every blog I read! Enough! I DO NOT, under any circumstance, want to enlarge the scope of the FCC's oversight and regulatory oversight.
+This very article talks about what happened in 2005, but does so poorly. In 2005, telephony based ISPs were reclassified, freeing them from the stranglehold of the Title 2 regulation. This allowed for the creation of Verizon FIOS, and other evolutions of DSL providers, which became some of the best in the business, and effectively headed off cable company strangleholds on the home market.
+Why on earth would we want to move everything back under Title 2?
+ SteveW928 6 hours ago 0 0We don't have a free market.
+And, you've got government either way. The question is whether they should be in theISPs pocket, or trying to create a free market.
+Page 9
+
+7521105625.txt 
+ 
+Robb Nunya 0 1
+We aren't living in a free market economy. He's right, monopolies don't exist in a 
+free market. Monopolies exist in a system where government picks winners and losers.
+Comcast and Time Warner (Which immediately disproves your example) have been 
+licensed to operate by the FCC, thus granting them "winner" status.
+ 
+KongHardrada 8 hours ago 0 0
+You do realize that tw and comcast have an agreement to not compete in the same 
+regional markets, right? That is collusion.
+ 
+jatmf 1 0
+As much as I like the idea of a small government, it's a little too late to let the 
+free market govern itself on an issue such as this. Its literally impossible to 
+start up an ISP that can actually compete with the likes of Comcast, AT&amp;T, Verizon 
+simply because of cost and manpower required. With Google struggling to enter the 
+ISP market, good luck trying to find an alternate ISP in your area that won't screw 
+you. [Sidenote - I live in Miami, not an exactly small American city and I have 2 ISP choices, AT&amp;T and Comcast - Pick your poison ]
+ J0HNGALT 0 0Research why it's difficult to start a isp and you'll find the problem is often the government. My town of 50K just started our own ISP. We have fast Internet for less than $40/month. Other states have made legislation preventing this model. Why? Because the corporations have lobbied for it which is cronny capitalism not free markets.
+Posted via Android Central App
+ jatmf 1 0Firstly I seriously envy you and your cheap internet! I do agree that legislations and expensive permits are a problem, but its one of the smaller problems for a bigger city. Building out a network is not cheap for a city such as Miami with a population of 414k much less a nation http://goo.gl/vR9bFx , which you have to consider for the Net Neutrality topic. We need the FCC (government) on this one, as the internet is a basic life necessity depending on who you ask. Maybe after Bill Gates gets bored of eradicating diseases he might team up with a few billionaires and launch an ISP to compete with the limited ISP choice we currently have. Here's another good article http://goo.gl/3uxh6V .
+ SteveW928 6 hours ago 1 0Do you understand why this doesn't happen in most places? It's because the telcos are so powerful, they get legislation passed in these places to keep that from happening. When that fails, they bully the competition out of business through frivolous lawsuits the startups can't afford to engage in. Sorry to raise your awareness on that, but that's not a free-market. And, it's not magically going to become free without some powerful entity stepping in and regulating it.
+ Rubios 1 0&gt;Monopolies do not exist in a free market.Yes they would, maybe they forgot to mention the natural ones in your little Economics 101.
+Not that it matters, free markets have never existed nor will exist.
+ J0HNGALT 0 0
+Page 10
+
+7521105625.txt 
+Considering I have an education in Economics I'd look to think I can speak to what 
+you actually learn in economics 101.
+For me, I learned and teach the difference between positive and normative 
+statements/economics.
+Positive statements are based on objective fact while normative statements are about
+how things should be based on values.
+For example, all data should be treated equally is a normative position meaning it 
+cannot be proven.
+As to your remarks about a natural monopoly, do you mind sharing examples of some? 
+I'm giving you all of history so it shouldn't be too much of a challenge if you're 
+so confident they teach this in econ 101
+Posted via Android Central App
+ 
+SteveW928 6 hours ago 0 0Economics is a social science... thus it depends on human nature, not just mathematics principals. Much of modern economics exists in principals in a vacuum from the realities of human nature.
+ iknownothing 0 0This is a government of the people, for the people, and by the people. When you talkabout taking power away from the government you're talking about taking power away from we, the people.
+The problem is that we, the people, through our government, allow these large companies to collude with each other against our interests and the broader interestsof the economy at large. What you are proposing is the forfeit of power to large companies with very specific interests in the hope that their profitability will magically make your life better. It won't.
+Posted via Android Central App
+ J0HNGALT 0 0FThe State aka the government is not you or me. They are a separate parasitic entitythat lives off the production of others. They have a very specific set of powers under article 1 section 8. I can assure you regulating the Internet isn't one.
+You are correct that the people is we allow our government to collude with corporations. However, you're solution to give the government will only make things worse.
+A corporation spends money to lobby government because they expect to get more in return. How are they able to receive a benefit? Because the government has somethingto auction off. Take away the government's ability to offer something to corporations and now suddenly they have little or any incentive to waste money trying to gain a upper hand through political means. You must see that what your proposing is exactly what you detest- people allowing big business to be in bed withgovernment. Give the government more power and the incentive for corporations to send money to Washington increases.
+I'm on your side; you're just not on your own!
+Posted via Android Central App
+ iknownothing 0 0
+Page 11
+
+7521105625.txt 
+It's true that if you remove power from government you remove the incentive for 
+large corporations to lobby. But That's only because they will no longer need favor 
+from the government to do any of the unethical things they want to do. They will 
+simply do them.
+You're trying to solve the problem of corruption in government by removing 
+government. That makes little sense as a solution in and of itself. But believing 
+that will somehow solve the problem of corruption in business is just a complete non
+sequitur.
+ 
+SteveW928 6 hours ago 0 0
+So, how exactly is not classifying Internet as a utility going to solve this current
+power-imbalance (i.e.: non-free-market)?
+You keep saying we want to give the government more power. No, I just want the 
+government to do their intended job. The FCC should do with ISPs what they've done 
+with other utilities. Are you arguing there should be no utilities, and that somehow
+the invisible hand will magically make all good? If so, you might need to rethink 
+your econ 101.
+ tombstonebb 0 0Oh you mean like government run healthcare? Why is it that those who can afford it can have heart surgery tomorrow while the commoners have to wait six months under the NHS?
+So who is going to pay for the bandwidth? Verizon? How much should a company be allowed to earn. Their FAIR SHARE? Who determines "fair"? The government taxes the same dollar (or pound) over and over and over again. Isn't that the same thing? You can't legislate fairness. A capitalist market will figure it out by introducing competition or the carriers will price themselves out of the market. Look at all of the people leaving cable companies.
+ iknownothing 0 0Verizon provides a service,ie broadband. Their customers pay for this service.
+No one wants to limit the amount of money Comcast can make. But let's say Comcast looks at how much money Netflix is making, and wants a piece. They decide to launch their own streaming service. Now, they don't have as much content as Netflix, but that doesn't matter, because Comcast can literally make it so that Netflix doesn't work. They then control how much money Netflix either makes or charges their customers by making Netflix pay extra to make the service work. Bear in mind that Netflix is now paying Comcast for a service that I've already paid Comcast for. It'sthe definition of a racket.
+This is literally what is happening right this fucking now.
+Posted via Android Central App
+ SteveW928 6 hours ago 0 0The problem with NHS is that it's a band-aid put on a horribly broken system. Not that there is something inherently wrong with having some sort of public-health-caresafety-net. I've lived in Canada now for about 7 years, and while the health-care system has it's problems, it's much better than the US system.
+Who will pay for the bandwidth? It should be the customers, with the ISP making a healthy profit. Do you think this isn't currently happening? It costs about $0.03 per/GB of data for an ISP, including fixed and operating costs. Do the math!
+The idea isn't that the government should decide the 'fair share,' but that the 
+Page 12
+
+7521105625.txt 
+government should not allow a monopoly, and since the Internet has become crucial to
+the success of the nation, it needs to be regulated as a utility, similar to other 
+utility type things (electricity, roads, COMMUNICATION, etc.).
+So, if the capitalist market will figure it out, where is the competition? Oh, 
+they've been bullied out of business by the monopolies. And, now they aren't happy 
+with just profits from being an ISP, they want to control the content as well, so 
+they can double-dip... lock it all in.... maximize profits (to the detriment of the 
+consumer, free-speech, or the very markets). That's not a free market.
+People leaving cable? There are people leaving cable-TV, but I'm not seeing a mass 
+exodus from Cable Internet. Where would they go, DSL? Heh! Only if they ignorant and
+fall for the hard-sell tactics. Hey, just sign here and I'll give you a tablet or 
+big-screen TV. ;)
+ 
+iknownothing 0 0
+The pursuit of profits certainly does not ALWAYS benefit society as a whole. In fact
+the recent finding of the court in this was clear.
+"... Broadband providers represent a threat to Internet openness and could act in ways that would ultimately inhibit the speed and extent of future broadband deployment. "
+Posted via Android Central App
+ dark96 0 0I thought they were going to allow ISP to charge the streaming companies now. There was an article somewhere that was talking about the new net neutrality rules and itsallowing ISP to pick and choice.
+ mauro316 0 0The article is impossible to read on the CB app. Please fix it.
+ cabbieBot 0 0Holy nice looking layout, it's about time! Did AC license the use of Chorus? ;)
+ Kevin Michaluk 2 0Looks like you're a new member! You must have missed all of Talk Mobile last year. 
+We've had kick-but templates in the mix for over a year now. Go back and check out some of the awesome articles at www.talkmobile2013.com. We usually have a few feature posts a month that use the amped up templates (maybe you've been missing them).
+ infosage 6 2No way. The only thing worse than these examples is complete government regulation of the internet.
+ frettfreak 0 0Not too far off from that really. Govnt, comcast, verizon... They are all devils in different clothes
+ Dizfunctions 0 0Having the FCC classify them as common carriers wouldn't make them completely government controlled...
+Page 13
+
+7521105625.txt 
+That's like saying phone companies are all completely government controlled, which 
+would be an untrue statement.
+Posted via Android Central App
+ 
+J0HNGALT 1 1
+The control is to place parameters on the business model an ISP. It's presumptuous 
+to think you or any entity knows the optimal delivery of Internet services. What if 
+we passed laws to protect the Internet as we knew it 10 years ago?
+The reality is the Internet exist today through the free market. Advocates of NN are
+asking to fix something that isn't broke.
+Posted via Android Central App
+ 
+iknownothing 0 0
+Proponents of net neutrality are wanting to preserve the internet as it has been, a 
+truly egalitarian marketplace of ideas.
+You think it's presumptuous for to believe anyone knows the optimum way to deliver data. And yet, someone is going to decide how that very same data is delivered. It can either be you or someone else, but they may not have your best interests in mind.
+Posted via Android Central App
+ J0HNGALT 0 0I think you should research this history of this legislation. These laws are all relatively new. The Internet as we know it was made without net neutrality laws.
+The majority of arguments are about hypothetical like, oh without N.N. your isp willblock YouTube and Netflix! Guess what happens then? Everyone flips out and canceles their subscription to that isp. You may say, well in my city we only have one choice(which I doubt!) My response, the same incentive that greedy isp used to decide to block YouTube/Netflix will motivate another entity to offer a competing service thatdoesn't block them. If such and event happened company B would steal most of companyAs business in days. This won't happen because company A would never block these things as its bad for business. Their pursuit for a profit empowers the customers.
+As to your second comment, The market aka all of us making individual decisions are 
+valuable signals of information that reflect our preferences that competing firms translate into a product that they hope will meet the demands of the consumer. The alternative is to let a few people decide on behalf of everyone. Some government bureaucrat is the last person you want deciding how your internet should be delivered.
+Think about the English language. No government commission or even small group of academics invented it. The market of ideas from millions of people did! This is how you should think of the Internet. Now you're cheerleading for the handcuffs of government to "protect" it from itself.
+Posted via Android Central App
+ iknownothing 0 0There are a number of problems with the solution you propose, any and all of which would negate it as a solution. Firstly, AT&amp;T Comcast et al isn't stupid. The commoditization will happen slowly and by pieces, So as to avoid outrage. Secondly, the solution to the problem you advocate would require millions of people to go without internet for an indeterminate period of time to affect a change. I cannot 
+Page 14
+
+7521105625.txt 
+fathom the effect this would have on our economy. In addition, even if the barriers 
+to entry in such a field were lower, you still have entrenched monolithic companies 
+willing to leverage market share. They can simply be a loss leader in such as a way 
+that a smaller start up cannot compete with, then ratchet up the pricing once 
+they're in the clear. All of these things can and will happen. It is completely 
+predictable because it is in the best interests of the companies involved to do 
+them.
+You second paragraph reads like an argument against representative democracy. No, I 
+don't want some government bureaucracy deciding how my internet should work. Good 
+news though, the concept of net neutrality wasn't thought of by some government 
+bureaucracy. It's the wording used to describe the organic and natural state of the 
+internet as it was at its inception. The concept that a market will naturally behave
+in an ethical way is a faith based argument and not rooted in fact. And for the 
+record, the last persons I'd want deciding how my internet should be delivered are 
+the people that run isp's.
+One need only look at the rules regarding apostrophes and when we break them to 
+learn that the english language is a mess. It's incredibly difficult to learn and 
+isn't internally consistent. The statement that I want the government to protect theinternet from itself is only true if you consider internet service providers "The Internet". They are not.
+ Jaredius 0 0That's coming next.
+ usafballer 0 0@infosage
+Absolutely, I will not ask the FCC to "do something" about this. Ridiculous to assume more government oversight will result in better internet for all. Surefire way to kill innovation, provide no industry motivation, and relegate us all to mediocre "fair" internet.
+The court that heard the case, along with common sense, disagree with you.
+Copyright 2014 Mobile Nations ????????? Terms and Conditions ????????? Privacy Policy 
+Page 15
+
+</str></arr>
+  <arr name="viewingStatus"><str>Unrestricted</str></arr>
+  <arr name="zip"><str>98168</str></arr>
+ </doc>
+ <doc>
+  <float name="score">2.9402447</float>
+  <arr name="applicant"><str>Numerous</str></arr>
+  <arr name="applicant_sort"><str>Numerous</str></arr>
+  <arr name="author"><str>Various</str></arr>
+  <arr name="author_sort"><str>Various</str></arr>
+  <arr name="brief"><bool>false</bool></arr>
+  <arr name="dateRcpt"><date>2014-07-16T04:00:00Z</date></arr>
+  <arr name="disseminated"><date>2014-07-29T16:21:59.933Z</date></arr>
+  <arr name="exParte"><bool>false</bool></arr>
+  <arr name="fileNumber"><str>35 emails</str></arr>
+  <arr name="id"><long>6018247774</long></arr>
+  <arr name="modified"><date>2014-07-30T18:10:01.856Z</date></arr>
+  <arr name="pages"><int>20</int></arr>
+  <arr name="proceeding"><str>14-28</str></arr>
+  <arr name="regFlexAnalysis"><bool>false</bool></arr>
+  <arr name="reportNumber"><str>263 Total emails</str></arr>
+  <arr name="smallBusinessImpact"><bool>false</bool></arr>
+  <arr name="submissionType"><str>LETTER</str></arr>
+  <arr name="text"><str>The attached document is part of a mass mailing. The number of 
+identical documents as specified in the File Number/City, St. field 
+have been received by the Commission on this same date. You may 
+view the documents at the FCC Reference Information Center, at 445 
+12th Street, SW, Washington, DC, Room CY-A257. 
+
+
+As an Internet user who believes strongly in the importance of a free and 
+open I nternet, I urge the FCC to reclassify broadband Internet access as 
+a telecommunications service, and save Net Neutrality. 
+In addition, the FCC should reject the proposed rules that would allow 
+Internet service providers to divide the Internet into fast lanes for 
+wealthy corporations and slow lanes for the rest of us. 
+---------------------------- Email 9,682 ----------------------------
+From: 
+To: 
+Date: 
+Subject: 
+xxxxxxxx 
+xxxxxxxx 
+07/16/2014 01:13 AM 
+Fast lanes, broadband &amp; Title II Common Carriers 
+1) Should fast lanes be banned? YES 
+2) Should broadband providers be classified as Title II Common Carriers? 
+YES 
+3) Should these same rules apply to wireless (mobile) providers? YES 
+By allowing ISPs to charge a premium for preferential treatment (which is 
+exactly what this will become) the US government will effectively stifle 
+one of the few industries we still dominate on a global scale, by 
+crushing innovation and the entrepreneurial spirit of this nation. 
+The free market is unable to respond accordingly given the 
+anticompetitive laws restricting carriers to cover certain geographic 
+locations. With laws that led carriers to enjoy essentially monopolies in 
+many areas around the nation, consumers have lost the ability to be 
+protected from price gouging and corporate market manipulation. In 
+addition, smaller companies will no longer be able to compete . There 
+would be no Facebooks, Linked-Ins, Googles, or Netflixes. 
+Thank you for adding my concerns to those against the FCCs currently 
+proposed plans. 
+
+R. Wilson 
+1425 Broadway #126 
+Seattle, WA 98122 
+206-290-8789 
+---------- ------ ------------ Email 9,683 ----------------------------
+From: xxxxxxxx 
+To: xxxxxxxx 
+Date: 07/16/2014 01:13 AM 
+Subject: Comment Re: WC Docket No. 14-28 
+As an Internet user who believes strongly in the importance of a free and 
+open Internet, I urge the FCC to reclassify broadband Internet access as 
+a telecommunications service, and save Net Neutrality. 
+In addition, the FCC should reject the proposed rules that would allow 
+Internet service providers to divide the Internet into fast lanes for 
+wealthy corporations and slow lanes for the rest of us. 
+Adam Eberhardt 
+3239 Hyde St 
+Oakland, CA 94601 
+&lt;http://list.credoaction.com/wf/open?upn=CFwW2LiM8egNfpSWPK172vcklJm5Gzqa 
+Ow5Fuc04BSI6ZDzoiuuLfXaGop06WlI1EltNtdVyNAzqelCzDr7jAdglBipdtVxQCrGJwVJJF 
+QBup65n8Sl33nU03ee4qxqPVOBrzSLllalmmAHxmqdDbgSIOibOU-
+2B09bxdjLtYtSavYj lkil-2F7MQ4Pqrw9CE3ihhFU8Iuf57cOBSgI6bx4BXQ-3D-3D&gt; 
+---------------------------- Email 9,684 ------------------------ --- -
+From: xxxxxxxx 
+To: xxxxxxxx 
+Date: 07/16/2014 01:13 AM 
+Subject: Public Comment 
+We already told what to do about net neutrality once before when you (the 
+FCC) had hearings on this a couple years back in 2010. 
+An overwhelming Majority of Public Comments told you to reclassify it. 
+You didnt listen and here we are 4 years later making the same exact case 
+because the court overruled your error . 
+You will never listen to ordinary people. 
+Cause you don't care about them. 
+And no matter how many comments flood your input in support of 
+reclassification you surely wont do it. 
+I'm guessing Mr Wheeler will surely look to serve his Former Corporation 
+over his Country. 
+Reclassify Now and quit kicking the can down the road for a Republican to 
+get the blame for killing the internet. 
+Jamie Onint 
+
+-- - ------------ - - - ---- -- - - - - Email 9,685 - -- - --- - --------------------
+From: xxxxxxxx 
+To: xxxxxxxx 
+Date: 07/16/2014 01:13 AM 
+Subject: Docket number: 14-28 protecting an open internet 
+To Chairman Tom Wheeler and the FCC Commissioners- ---
+Chairman Wheeler, 
+It is critical to free speech and the development of new businesses that 
+Internet Service Providers not be allowed to regulate Internet data 
+rates. 
+The modern use of the Internet was based on the idea that anyone could 
+put up a web page or otherwise communicate with anyone else, anywhere in 
+the world regardless of how much money they had. I know. My use of the 
+Internet goes back to the command line days. The current equivalent of 
+the early web page is streaming media precisely what the large ISPs 
+want to throttle. The egalitarianism of free speech on the Internet 
+would be stifled. 
+Similarly, with regard to nascent businesses, the Internet has 
+traditionally offered a platform for even the smallest start up to reach 
+customers . Demanding premium charges to permit unthrottled streaming 
+media, VOIP, video conferencing and other bandwidth-intensive 
+technologies to function is an egregious and unreasonable and unfair 
+burden for smaller businesses. 
+I hope you will heed the will of everyone other than large ISPs and 
+support Net Neutrality. 
+Sincerely, 
+Eric Nathanson 
+Eric Nathanson 
+91324 
+------------- - -- - ------ - - - -- Email 9,686 ------- - --------------------
+From: 
+To: 
+Date: 
+Subject: 
+xxxxxxxx 
+xxxxxxxx 
+07/16/2014 01:13 AM 
+Docket number: 14-28 protecting an open internet 
+To Chairman Tom Wheeler and the FCC Commissioners----
+Dear Sirs, 
+
+I am a musician in training. I take lessons on my computer each week . 
+Also, I use video resources to further my knowledge about music theory 
+and practice. Without an open and free internet this would be expensive 
+and prohibitive for me. 
+Along with this I read newspaper articles on line and watch video feeds. 
+Currently much of this is free. Since I live on a limited budget any 
+increase in cost wil l have a detrimental impact upon me. 
+In my opinion, a free and open internet is a necessity and we should not 
+allow a few corporations to l i mit access by manipul ating this 
+resource via pay to play schemes . 
+Terence Brownlow 
+94901 
+------ - ------ ------- ----- -- - Email 9,687 --- - -- ------ - - -- - -----------
+From: xxxxxxxx 
+To: xxxxxxxx 
+Date: 07/16/2014 01:13 AM 
+Subject: Docket number: 14 - 28 protecting an open internet 
+To Chairman Tom Wheeler and the FCC Commissioners----
+No Content Found -- Please specify some content 
+Jink Huge 
+91362 
+------------------- --------- Email 9,688 -------- ---- - --- -- --- - - - - - - -
+From: xxxxxxxx 
+To: xxxxxxxx 
+Date: 07/16/2014 01:14 AM 
+Subject: Strongly in Favor of Net Neutrality, Strongly Opposed to the 
+Prioritization of Certain Favored Internet Services 
+I strongly favor net neutrality and am strongly opposed to any 
+regulation or legislation that allows for the prioritization of one 
+type of Internet service over another . The engine of Internet 
+innovation is completely dependent on the equal treatment of all 
+traffic. If you take that away the Internet will cease to create new 
+industries, jobs, and new innovative services and become a stagnant, 
+mediocre, commercial channel controlled by a few rich companies. 
+Innovation will be driven off shore and foreign economies will enjoy 
+its benefits . 
+-- Morri s Creeger 
+Portola Valley, CA 94028 
+- -- ------- --- ----- - - -------- Email 9,689 -- ----------- ------ - ------- -
+
+From: namastepj®me.com 
+To: xxxxxxxx 
+Date: 07/16/2014 01:14 AM 
+Subject: GN Docket No. 14-28. Protect net neutrality, reclassify 
+broadband access. 
+To Whomever it May Concern: 
+Protect net neutrality, and do it right this time. 
+Recognize the reality that broadband Internet service is a 
+telecommunications service, not an "information service," as it is 
+currently misclassified. It should be regulated under Title II as a 
+common carrier, subject to all the nondiscrimination principles that 
+govern such utilities. 
+Statements from your chairman make it clear that reclassifying Internet 
+service in this way may be necessary to ensure net neutrality in the 
+future. The currently-proposed, weaker rules will allow ISPs to 
+discriminate against minority voices, smaller companies, and diverse 
+sources of information. Ensure that this does not happen by issuing 
+strong common-carrier regulations now, covering both wired and wireless 
+broadband carriers. 
+Protect the rights of minorities, small businesses, and consumers. 
+Protect net neutrality now. 
+Ms Paige Harrison, R.N., BSN, OCN 
+New York, NY 10024 
+us 
+-------------------- -------- Email 9,690 -------------------- --------
+From: xxxxxxxx 
+To: xxxxxxxx 
+Date: 07/16/2014 01:14 AM 
+Subject: Docket number: 14-28 protecting an open internet 
+To Chairman Tom Wheeler and the FCC Commissioners----
+Net Neutrality the last real outpost of a free society. We need Net 
+Neutrality to retain that ideal of America, of a free country where 
+everyone can express their opinion, have their say and seek out the 
+information they need. We are not ruled by corporations, not yet, not 
+completely, please leave this one last freedom available to the American 
+people. Protect Net Neutrality- make laws to protect it. Protect an open 
+internet; this is one of the most important civil right issues of our 
+time. Do the right thing. 
+Andrea Patt 
+95503 
+
+------------- ----- ---------- Email 9,691 ---------- ---- - --- ----- ---- -
+From: xxxxxxxx 
+To: xxxxxxxx 
+Date: 07/16/2014 01:15 AM 
+Subject: Net neutrality 
+Is the FCC for consumers or Corporations? In case it's not clear at the 
+point, the people want net neutrality. 
+Steve Hansen, Granite Bay, ca. 
+--------------- ---- --------- Email 9,692 ---- - ------ --------- --------
+From: 
+To: 
+Date: 
+Subject: 
+kk khan 
+xxxxxxxx 
+xxxxxxxx 
+07/16 / 2014 01:15 AM 
+Tell the FCC to protect a free and open Internet 
+123 Nunya 
+Buffalo, NY 14223 
+July 16, 2014 
+Tom Wheeler 
+Dear Tom Wheel er: 
+These comments are in response to proceeding #14-28. 
+Free speech should not be bought and sold. The proposal to grant ISPs the 
+right to charge for •fast lanes' threatens this celebrated American 
+principle. The company that connects us to the internet should not get to 
+manipulate or control what we do on the internet. 
+I'm calling on you to reclassify the Internet as a telecommunications 
+service to obligate ISPs to del i ver all data on the Internet without 
+discrimination. Please do the right thing: let corporati ons know that the 
+Internet is not for sale to the highest bidder. 
+Thank you for preserving a free and open Internet. 
+Sincerely, 
+kk khan 
+------------ ---- ------- ----- Email 9,693 - ---- - ------------- - - - ------
+
+From: xxxxxxxx 
+To: xxxxxxxx 
+Date: 07/16/2014 01:15 AM 
+Subject: Tell the FCC to protect a free and open Internet 
+Donald Ludwig 
+19550 Grayhawk Dr. #1053 
+Scottsdale, AZ 85255-3984 
+July 16, 2014 
+Tom Wheeler 
+Dear Tom Wheeler: 
+These comments are in response to proceeding #14-28. 
+Free speech should not be bought and sold. The proposal to grant ISPs the 
+right to charge for 'fast lanes' threatens this celebrated American 
+principle. The company that connects us to the internet should not get to 
+manipulate or control what we do on the internet. 
+I'm calling on you to reclassify the Internet as a telecommunications 
+service to obligate ISPs to deliver all data on the Internet without 
+discrimination. Please do the right thing: let corporations know that the 
+Internet is not for sale to the highest bidder. 
+Thank you for preserving a free and open Internet. 
+Sincerely, 
+Donald Ludwig 
+(760) 219-8124 
+---------------------------- Email 9,694 ----------------------------
+From: xxxxxxxx 
+To: xxxxxxxx 
+Date: 07/16/2014 01:15 AM 
+Subject: Tell the FCC to protect a free and open Internet 
+brianna onken 
+409 NW Tork Pl 
+Hillsboro, OR 97006-2796 
+July 16, 2014 
+Tom Wheeler 
+
+-------------- ---------------------··----- ·-·--- .. -.. , . . .... ...... . 
+Dear Tom Wheeler: 
+These comments are in response to proceeding #14-28. 
+Free speech shoul d not be bought and sold . The proposal to grant ISPs the 
+right to charge for 'fast lanes' threatens this celebrated American 
+principle. The company that connects us to the internet should not get to 
+manipulate or control what we do on the internet. 
+I'm calling on you to reclassify the Internet as a telecommunications 
+service to obligate ISPs to deliver all data on the Internet withou t. 
+discrimination. Please do the right thing: let corporations know that the 
+Internet is not for sale to the highest bidder. 
+Thank you for preserving a free and open Internet. 
+Sincerely, 
+brianna onken 
+---------- ------- ----------- Email 9,695 ---------- --- --- -- ------ -- --
+From: 
+To: 
+Date: 
+Subject: 
+xxxxxxxx 
+xxxxxxxx 
+07/16 / 2014 01:15 AM 
+Tell the FCC to protect a free and open Internet 
+Peter Sommers 
+2393 Filbert Street 
+San Francisco, CA 94123 - 3313 
+July 16, 2014 
+Tom Wheeler 
+Dear Tom Wheeler: 
+These comments are in response to proceeding #14 - 28. 
+Free speech should not be bought and sold. The proposal to grant ISPs the 
+right to charge for •fast lanes' threatens this celebrated American 
+principle. The company that connects us to the internet should not get to 
+manipulate or control what we do on the internet. 
+I'm calling on you to reclassify the Internet as a telecommunications 
+service to obligate ISPs to deliver all data on the Internet without 
+
+discrimination. Please do the right thing: let corporations know that the 
+Internet is not for sale to the highest bidder. 
+Thank you for preserving a free and open Internet. 
+Sincerely, 
+Peter Sommers 
+415 -929-8111 
+--------------------- - - -- --- Email 9,696 ------------------------ --- -
+From: xxxxxxxx 
+To: xxxxxxxx 
+Date: 07/16/2014 01:15 AM 
+Subject: Tell the FCC to protect a free and open Internet 
+George Wheeler-Brownlee 
+4131 E Glenn Street 
+Tucson, AZ 85712-1534 
+July 16, 2014 
+Tom Wheeler 
+Dear Tom Wheeler: 
+These comments are in response to proceeding #14-28. 
+Free speech should not be bought and sold. The proposal to grant ISPs the 
+right to charge for 'fast lanes' threatens this celebrated American 
+principle. The company that connects us to the internet should not get to 
+manipulate or control what we do on the internet. 
+I'm calling on you to reclassify the Internet as a telecommunications 
+service to obligate ISPs to deliver all data on the Internet without 
+discrimination. Please do the right thing: let corporations know that the 
+Internet is not for sale to the highest bidder. 
+Thank you for preserving a free and open Internet. 
+Sincerely, 
+George Wheeler-Brownlee 
+5203270834 
+
+---------------------------- Email 9,697 ----------------------- - ----
+From: xxxxxxxx 
+To: xxxxxxxx 
+Date: 07/16/2014 01:15 AM 
+Subject: Tell the FCC to protect a free and open Internet 
+Gordon Gerrish 
+56850 fishhatchery road 
+St Ignatius, MT 59865-9216 
+July 16, 2014 
+Tom Wheeler 
+Dear Tom Wheeler: 
+These comments are in response to proceeding #14-28. 
+Free speech s hould not b e bought and sold. The proposal to grant I SPs the 
+right to charge for 'fast lanes' threatens this celebrated America n 
+principle. The company that connects us to the internet should not get to 
+manipulate or control what we do on the internet. 
+I'm calling on you to reclassify the Internet as a telecommunications 
+service to obligate ISPs to deliver all data on t he I n ternet withou t 
+d iscrimination. Please do t he right thing: let corporations know that the 
+Internet is not for sale t o the highest bidder. 
+Thank you for preserving a free and open Internet. 
+Sincerely, 
+Gordon Gerrish 
+---------------------------- Email 9,698 ----------------------------
+From: xxxxxxxx 
+To: Op xxxxxxxx 
+Date: 07/16/2014 01:15 AM 
+Subject: Tell the FCC to protect a fre e and open Internet 
+Scott Jennings 
+2519 Palmer Ave 
+New Orleans, LA 70118-63 19 
+July 16, 2014 
+Tom Wheeler 
+
+Dear Tom Wheeler: 
+These comments are in response to proceeding #14-28. 
+Free speech should not be bought and sold. The proposal to grant ISPs the 
+right to charge for 'fast lanes' threatens this celebrated American 
+principle. The company that connects us to the internet should not get to 
+manipulate or control what we do on the internet. 
+I'm calling on you to reclassify the Internet as a telecommunications 
+service to obligate ISPs to deliver all data on the Internet without 
+discrimination. Please do the right thing: let corporations know that the 
+Internet is not for sale to the highest bidder. 
+Thank you for preserving a free and open Internet. 
+Sincerely, 
+Scott Jennings 
+3186550371 
+- ------ - ------ -- ----------- - Email 9,699 - ------------- - ------------ -
+From: xxxxxxxx 
+To: xxxxxxxx 
+Date: 07/16/2014 01:15 AM 
+Subject: Tell the FCC to protect a free and open Internet 
+tammy huckabone 
+1144 CR 12 
+Pennellville, NY 13132 
+July 16, 2014 
+Tom Wheeler 
+Dear Tom Wheeler: 
+These comments are in response to proceeding #14 - 28. 
+Free speech should not be bought and sold. The proposal to grant ISPs the 
+right to charge for 'fast lanes• threatens this celebrated American 
+principle. The company that connects us to the internet should not get to 
+manipulate or control what we do on the internet. 
+I'm calling on you to reclassify the Internet as a telecommunications 
+
+service to obligate ISPs to deliver all data on the Internet without 
+discrimination. Please do the right thing: let corporations know that the 
+Internet is not for sale to the highest bidder. 
+Thank you for preserving a free and open Internet. 
+A Please protect a free and open internet. 
+Sincerely, 
+tammy huckabone 
+- ------- ---- - - ----- ---------Email 9,700 -------------- - - - -----------
+From: xxxxxxxx 
+To: xxxxxxxx 
+Date: 07/16/2014 01:16 AM 
+Subject: Official Public Comment on Rules Regarding Net Neutrality 
+My name is Andrea Dewees and I live in Seattle, WA. 
+Net neutrality, the principle that Internet service providers (ISPs) 
+treat all data that travels over their networks equally, is important to 
+me because without it ISPs could have too much power to determine my 
+Internet experience by providing better access to some services but not 
+others. 
+A pay--to-play Internet worries me because new, innovative services that 
+can't afford expensive fees for better service will be less likely to 
+succeed. 
+The Internet is important to me because it is an essential commerce 
+portal and information medium. Without net neutrality, the freedom of 
+information sharing will be restricted at the hands of big business and 
+the 1%. The FCC's current rulings regarding net neutrality are not in 
+line with the intentions of a capitalist society requiring fair 
+competition in the marketplace . Because of this , I feel that I may be 
+unduly burdened as a user of the internet in that my access to 
+information and innovative resources will be limited, funneled or 
+restricted. 
+Sincerely, 
+Andrea Dewees 
+8509 29th Ave NW 
+Seattle, WA 98117 
+--- ------- ------------------ Email 9,701 ---------------- -- ----------
+From: xxxxxxxx 
+To: xxxxxxxx 
+Date: 07/16/2014 01:16 AM 
+Subject: 14-28 Protect net neutrality 
+I support net neutrality. Please c l assify broadband and mobile providers 
+as Title II Common Carriers, and ban the "fast lane". 
+
+The internet has revolutionized our world. Net neutrality is vital to 
+allow future innovations. 
+Lora Swartzendruber 
+1700 Pennsylvania 
+Lawrence, KS 66044 
+---------------------------- Email 9,702 - - - -------------------------
+From: 
+To: 
+Date: 
+Subject: 
+xxxxxxxx 
+xxxxxxxx 
+07/16/2014 01:16 AM 
+Docket number: 14-28 protecting an open internet 
+To Chairman Tom Wheeler and the FCC Commissioners----
+To those whose choices will so greatly impact the internet. I spent my 
+post graduate studies searching libraries to understand classical and 
+medieval cultures and history ... years. A relatively open internet has 
+allowed me to search information much more quickly from various sources 
+and countries to try to ascertain what is actually happening in the world 
+today. That ability has been invaluable to my understanding of the world 
+and the major players on its stage ... thing Shakespeare's" ... life's 
+but a tale told by an idot, full of sound and fury, signifying 
+nothing ... " Modern commercial media is like that. 
+In order to avoid the violence and revolution that monetary control of 
+the internet information source now available, we must have an open, 
+neutral internet access policy. If not, we will sooner or later have the 
+violence that supression of open iformation will generate. Why would you 
+want that? 
+Information control helped to formet world wars I &amp; II, not to mention 
+the battles of Troy and the conflicts betweent the Greeks and Persians, 
+not to mention so many others. Why would you want us to go down those 
+paths again? 
+Peter Vanderhoof 
+98363 
+----------- -- --- --- - ---- ---- Email 9,703 ---------------- -- - --- ------
+From: xxxxxxxx 
+To: xxxxxxxx 
+Date: 07/16/2014 01:16 AM 
+Subject: Comment re: WC Docket No. 14-28 
+As an Internet user who believes strongly in the importance of a free and 
+open Internet, I urge the FCC to reclassify broadband Internet access as 
+a telecommunications service, and save Net Neutrality. 
+
+In addition, the FCC should reject the proposed rules that would allow 
+Internet service providers to divide the Internet into fast lanes for 
+wealthy corporations and slow lanes for the rest of us. 
+-- -- -- - ---- -- ------ --- ------ Email 9,704 ---- -- ---- - - -- ------- - ----- -
+From: xxxxxxxx 
+To: xxxxxxxx 
+Date: 07/16/2014 01:16 AM 
+Subject: Reclassify the Internet as a common carrier 
+To: The Commissioners of the FCC 
+Your proposed path would open the door to widespread discrimination 
+online. It would give Internet service providers the green light to 
+implement pay-for-priority schemes that would be a disaster for startups, 
+nonprofits and everyday Internet users who cannot afford these 
+unnecessary tolls. 
+I urge you to scrap these proposed rules and instead restore the 
+principl e of online nondiscrimination by reclassifying broadband as a 
+telecommunications service. 
+Javier Casanova 
+ON LSA 2G8 
+- - - - -- -- - --- -- ------- -- ----- Email 9,705 --- -- -- -- -- -- ----- -- ------ - -
+From: 
+To: 
+Date: 
+Subject: 
+xxxxxxxx 
+Op~xxxxxxxx 
+07/16/2014 01:17 AM 
+Docket number: 14 - 28 protecting an open internet 
+To Chairman Tom Wheeler and the FCC Commissioners----
+It is our right to freedom for the first amendment!! You have NO RIGHT 
+to impede, decide or regulate our right to information, entertainment or 
+any other internet service offered . Mind your own business!!! 
+kk khan 
+14223 
+-- - -- -- ---- - -- - ---- - ------- - Email 9,706 ----- - ------- - -- - -- -- --- - -- -
+From: xxxxxxxx 
+To: xxxxxxxx 
+Date: 07/16/2014 01:17 AM 
+Subject: Comment Re: WC Docket No. 14 - 28 
+As an Internet user who believes strongly in the importance of a free and 
+open Internet, I urge the FCC to reclassify broadband Internet access as 
+a telecommunications service, and save Net Neutrality. 
+
+In addition, the FCC should reject the proposed rules that would allow 
+Internet service providers to divide the Internet into fast lanes for 
+wealthy corporations and slow lanes for the rest of us. 
+Amanda Bloom 
+2950 International Blvd 
+Oakland, CA 94601 
+&lt;http://list.credoaction.com/wf/open?upn=CFwW2LiM8egNfp5WPK172vcklJm5Gzqa 
+Ow5Fuc04B5I - 2FZI7pLgWaGecilGYw9uksyqFkDWx3cawS3uQTRgcqVvCksiq- 2FclQ-
+2FkiAMBEjGYAFYBSOlsERC- 2FnBAmSgFrHA0-2BlFWvYdkLIJyLUlwqIJlx4nqFKyhS-
+2Fh4GNaMbQvQKr202bMGLPLWoeSzCsGnN-2FeBG4v6yk-2FZU8pSzzzfnjPfIA- 3D- 3D&gt; 
+---------------------- - ----- Email 9,707 - -- ---- -- ------------------ -
+From: 
+To: 
+Date: 
+xxxxxxxx 
+xxxxxxxx 
+07/16/2014 01:17 AM 
+Subject: Docket number: 14 - 28 protecting an open internet 
+To Chairman Tom Wheeler and the FCC Commissioners----
+with our govt/new/info so bought and paid for that is meaningless and 
+folks so mis/unimforrned, it's sad that ya'll even consider further 
+commercializing the info hiway. 
+Shame on you 
+Elizabeth Patterson 
+84115 
+- - - --- - ------------------- - -Email 9,708 -------- --- - ----------- - ----
+From: xxxxxxxx 
+To: xxxxxxxx 
+Date: 07/16/2014 01:17 AM 
+Subject: Comment Re: WC Docket No . 14 - 28 
+As an Internet user who believes strongly in the importance of a free and 
+open Internet, I urge the FCC to reclassify broadband Internet access as 
+a telecommunications service, and save Net Neutrality. 
+In addition, the FCC should reject the proposed rules that would allow 
+Internet service providers to divide the Internet into fast lanes for 
+wealthy corporations and slow lanes for the rest of us. 
+L YOUNG 
+2324 W Irving Pk #309 
+Chicago, IL 60618 
+&lt;http://list.credoaction.com/wf/open?upn=CFwW2LiM8egNfp5WPKl72vck1Jm5Gzqa 
+Ow5Fuc04B5Kd6Dj4fQopYBaiv24QHQ4nzuusP8qSvUZDX9npmD96DdV83jqc7phMsaNGrVSOe 
+
+E9k4ev-2FQd6KxvpkNZvObFY-2F40-2BgSJFmTqklMVHqCw-2B2UHQDEE-
+2BLRK35vDruAxTVg-2BlEc8tTZ8RkhsFg6238xltXHxivQF8Q4ZyJoRv6DpyaNg-3D- 3D&gt; 
+- ---- -- ---------- ----- - --- --Email 9,709 ---------------------- - - ----
+From: 
+To: 
+Date: 
+Subject: 
+xxxxxxxx 
+xxxxxxxx 
+07/16/2014 01:17 AM 
+Docket number: 14-28 protecting an open internet 
+To Chairman Tom Wheeler and the FCC Commissioners----
+I run a small business on the internet. I cannot afford to pay cable 
+companies anytime someone views my website. This proposed action of yours 
+in making the internet a sort of buffet for those browsing the internet 
+will severely impact me. It will also impact small business owners such 
+as myself. Leaving the internet "NET NEUTRAL" will allow those of us 
+without the resources of a big company the chance to survive. 
+Please do not put into place this draconian law into place. 
+Sam Chetcuti 
+94080 
+---------------------- ------ Email 9,710 ------------- - -- - - - - - - - -----
+From: xxxxxxxx 
+To: xxxxxxxx 
+Date: 07/16/2014 01:18 AM 
+Subject: Save the Internet for the people 
+Chairman Wheeler, 
+Please keep the internet as it is today. The internet is the last part 
+of my life that is not one sided in favor for the BIG businesses. They 
+are the ones who hold our internet lives in their hands, but their 
+overwhelming greed, they want, with your help and blessing, to squeeze 
+the last dollar out of the rest of the population. 
+Just what is the reason you are in favor to make the change? 
+of the very rich that want it, the rest of the country do not? 
+seems you must side with the very rich? Is that it? 
+There a few 
+So it 
+I was in the telephone industry when Judge Green handed down his verdict 
+to level the playing field and allow competition to prevail. The price 
+of telephone service dropped significantly, service greatly improved, and 
+features and capabilities exploded. Now look what has happened, the 
+telephone industry is coming back to where it was before the breakup of 
+AT&amp;T. 
+It is looking that, with your help, that the internet is going the same 
+way, a few lording it over all the rest. What will be coming if this 
+passes, is the AT&amp;T monopoly will coming back in the form of the 
+internet. Look forward and you will see the damage this will do. It 
+
+cannot improve the internet except i n the pocket of a few. Is there any 
+way to stop, or at l east slow down the oligarchy? 
+Jerry Sharp 
+xxxxxxxx 
+145 Trail Rider Way 
+Georgetown TX 78633 
+864 - 904-2868 c 
+----------- - - -- ----------- - -Email 9,711 - - ---- - ---- - - - -- - - -- - - -- ----
+From: 
+To: 
+Date: 
+xxxxxxxx 
+xxxxxxxx 
+07/16/2014 01: 18 AM 
+Subject: Comment Re: WC Docket No. 14-28 
+As an Internet user who believes strongly in the importance of a free and 
+open Internet, I urge the FCC to reclassify broadband Internet access as 
+a telecommunications service, and save Net Neutrality . 
+In addition, the FCC shoul d reject the proposed rules that would allow 
+Internet service providers to divide the Internet into fast l anes for 
+wealthy corporations and slow lanes for the rest of us. 
+Bill R Taylor 
+12400 Bakers Creek Rd. 
+Redwood Valley, CA 95470 
+&lt;http://list.credoaction.com/wf/open?upn=CFwW2LiM8egNfp5WPKl72vcklJm5Gzqa 
+Ow5Fuc04B5LezjMuAZWvxknMKawhv-2BdlVOEOkIBCbHemyyHx2jDTvQWLDG-2BdkwCc -
+2B9JSiGa50bsAPgEAbHltGEm5xR-2BLjNWrndwIHbgSbDBeUtUf5baS28KL-
+2FKvMRKJaX2La6pDS6Q8ip9uUf80hNS7Zg49yZu9ekylv27V4THt5EkwLTXPblg-3D-3D&gt; 
+- -- - - -- - - - -- - --------------- Email 9,712 ----------------------------
+From: 
+To: 
+Date: 
+xxxxxxxx 
+xxxxxxxx 
+07/16/2014 01:18 AM 
+Subject: Save the Internet for the people 
+To Chairman Tom Wheeler and the FCC Commissioners----
+Chairman Wheeler, please keep the internet as it is today. The internet 
+is the last part of my life that is not one sided in favor for the BIG 
+businesses. They are the ones who hold our internet lives in their 
+hands, but their overwhelming greed, they want, with your help and 
+blessing, to squeeze the last dollar out of the rest of the population. 
+Just what is the reason you are in f avor to make the change? 
+of the very rich that want it, the rest of the country do not? 
+seems you must side with the very rich? Is that it? 
+There a few 
+So it 
+I was in the telephone industry when Judge Green handed down his verdict 
+to level the playing field and allow competition to prevail. The price 
+
+of telephone service dropped significantly, service greatly improved, and 
+features and capabilities exploded. Now look what has happened, the 
+telephone industry is coming back to where it was before the breakup of 
+AT&amp;T. 
+It is looking that, with your help, that the internet is going the same 
+way, a few lording it over all the rest. What will be coming if this 
+passes, is the AT&amp;T monopoly will coming back in the form of the 
+internet. Look forward and you will see the damage this will do. It 
+cannot improve the internet except in the pocket of a few. Is there any 
+way to stop, or at least slow down the oligarchy? 
+Jerry Sharp 
+78633 
+Email 9,7~3 
+From: xxxxxxxx 
+To: xxxxxxxx 
+Date: 07/16/2014 01:18 AM 
+Subject: Docket number: 14-28 protecting an open internet 
+To Chairman Tom Wheeler and the FCC Commissioners----
+Please keep net neutrality and an open internet. I have a Masters Degree 
+in Computer Science from NYU Courant Institute and very clearly 
+understand the technical aspects of this issue. 
+Thank you for your attention, 
+Dan Robinson 
+Daniel and Joy ROBINSON 
+10804 
+--- ------- --------- --------- Email 9,714 -------- ------------ --------
+From: xxxxxxxx 
+To: xxxxxxxx 
+Date: 07/16/2014 01:18 AM 
+Subject: Comment Re: WC Docket No. 14-28 
+As an Internet user who believes strongly in the importance of a free and 
+open Internet, I urge the FCC to reclassify broadband Internet access as 
+a telecommunications service, and save Net Neutrality. 
+In addition, the FCC should reject the proposed rules that would allow 
+Internet service providers to divide· the Internet into fast lanes for 
+wealthy corporations and slow lanes for the rest of us. 
+Daniel Robinson 
+Skyview Ln 
+
+New Rochelle, NY 10804 
+&lt;http: // list.credoaction.com/ wf / open?upn=CFwW2LiM8egNfpSWPK172vck1Jm5Gzqa 
+Ow5Fuc04BSKUOe3b9dNI-2BY8LSC8IROkLcn7v6blefynby69jDY-
+2FWhe8DkOktPYvmVPyz7fsD6Z7HoTGFEOJj SGJSnP1ESpilvkM4YLKsrXI8JkmnsPCz8jqdvy 
+zXquQrBK-2BvqUAleme-2FK8DuUmIHKDJ40BWy8pkKBwOsSN1CuVcCbtOyTk5sIA-3D-3D&gt; 
+---- ---- ------- ---- - -- ------Email 9,715 ---- -- ---- -- ----- -- ---- --- --
+From: xxxxxxxx 
+To: xxxxxxxx 
+Date: 07/16/2014 01:18 AM 
+Subject: Chairman Wheeler's "Fast Lane" and "Slow Lane" 
+Chairman Wheeler's outrageous proposal for "Fast Lane" explicitly 
+endorses "Slow Lane" for the rest of us. 
+"Slow Lane" unless We the People can afford "Fast Lane" for all of 
+our Internet use. 
+"Slow Lane" for public schools? 
+"Slow Lane" for US, State &amp; Local 
+"Slow Lane" for public libraries? 
+"Slow Lane" for small businesses, 
+Outrageous! 
+Outrageous! 
+Governments? Outrageous! 
+Outrageous! 
+such as Starbucks free WiFi? 
+Dan Du Bois, Culver City, CA 90230 
+Retired Systems Administrator for California State University 
+---- --- ---- - -- - - --- ----- - --- Email 9,716 ----- -- ---- - -------- - -------
+From: xxxxxxxx 
+To: xxxxxxxx 
+Date: 07/16/2014 01:18 AM 
+Subject: Comment Re: WC Docket No. 14-28 
+As an Internet user who believes strongl y in the importance of a free and 
+open Internet, I urge the FCC to reclassify broadband Internet access as 
+a telecommunications service, and save Net Neutrality. 
+In addition, the FCC should reject the proposed rules that would allow 
+Internet service providers to divide the Internet into fast lanes for 
+wealthy corporations and slow lanes for the rest of us. 
+Lisa Pangborn 
+6424 N. Newgard 
+Chicago, IL 60626 
+&lt;http://list.credoaction.com/wf/open?upn=CFwW2LiM8egNfpSWPK172vcklJm5Gzqa 
+Ow5Fuc04BSI-2Bo-2FGMwyovOCkjrgsCUS1E6rpbe-2Fjlezjp-
+2BJpvQmOuY3K7BVn9kPzb39v2tXQ6mghhsKgsAo- 2FykBIDM3jQ2k1Ele9s-
+2BQNorsEfiszrWFhiTaJ09U4c78lsQKh4nCaJLMmGEJZEmxc-
+2FsflqMTUOj 2BvocuemL32Y01-2F4HNm5-2FZtBA-3D-3D&gt; 
+
+</str></arr>
+  <arr name="viewingStatus"><str>Unrestricted</str></arr>
+ </doc>
+ </result>
+ </response>
+
