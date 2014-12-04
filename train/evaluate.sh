@@ -29,11 +29,3 @@ ${Mallet_Home}/bin/mallet evaluate-topics \
     --output-prob ${prob}
 done
 
-#######################################
-# calculate document lengths
-#######################################
-testdoc_lengths="${InData}/testdoc_lengths.txt"
-rm -f ${testdoc_lengths}
-${Mallet_Home}/bin/mallet run cc.mallet.util.DocumentLengths \
-    --input ${testData} > ${testdoc_lengths}
-
