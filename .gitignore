@@ -2,3 +2,6 @@
 *.dot
 *.log
 *.pyc
+mallet-data/bigram/
+mallet-data/uni+bigram/
+mallet-data/unigram/

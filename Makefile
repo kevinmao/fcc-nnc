@@ -40,3 +40,21 @@ import:
 	############################################
 	cd train && bash import.sh
 
+train_unigram:
+	############################################
+	### train unigram model 
+	############################################
+	cd train && bash train.sh unigram
+
+train_bigram:
+	############################################
+	### train bigram model 
+	############################################
+	cd train && bash train.sh bigram
+
+train_unibigram:
+	############################################
+	### train unigram+bigram model 
+	############################################
+	cd train && bash train.sh uni+bigram
+
