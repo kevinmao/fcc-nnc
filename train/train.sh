@@ -25,8 +25,9 @@ rm -f ${evaluator} ${doc_topics} ${topic_docs} ${topic_keys} ${word_topic_counts
 
 # train by num-of-topics
 ${Mallet_Home}/bin/mallet train-topics \
-	--num-iterations 1000 \
-	--optimize-interval 25 \
+	--alpha 50.0 \
+	--beta 0.01 \
+	--num-iterations 600 \
 	--num-threads 5 \
 	--num-topics ${numTopics} \
 	--input ${trainData} \
