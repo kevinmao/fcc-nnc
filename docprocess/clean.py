@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
 
 import sys
-import SimpleCleaner
+import MoreSimpleCleaner
 
 """
 Clean up email body aggressively
 Remove non-alphanumer chars
+Remove stopwords
 Remove single char words
-remove stopwords
 """
 def main():
     for line in sys.stdin:
@@ -21,7 +21,7 @@ def main():
             if id is None or len(id) == 0 or id.lower() == 'null': continue
     
             # clean 
-            _text =  SimpleCleaner.clean(text)
+            _text =  MoreSimpleCleaner.clean(text)
             if len(_text) == 0: continue
             
             # ouput                
