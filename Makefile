@@ -38,5 +38,5 @@ import:
 	############################################
 	### create mallet format data 
 	############################################
-	cd scripts && bash import.sh
+	cd train && bash import.sh
 
