@@ -13,9 +13,6 @@ topic_docs="${Data}/topic_docs.txt"
 topic_keys="${Data}/topic_keys.txt"
 word_topic_counts="${Data}/word_topic_counts.txt"
 
-ls $trainData
-
-: << 'EOF'
 #######################################
 # training with mallet 
 #######################################
@@ -32,5 +29,4 @@ ${Mallet_Home}/bin/mallet train-topics \
 	--output-topic-keys ${topic_keys} \
 	--word-topic-counts-file ${word_topic_counts} 
 done
-EOF
 
