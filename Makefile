@@ -58,3 +58,22 @@ train_unibigram:
 	############################################
 	cd train && bash train.sh uni+bigram
 
+evaluate_unigram:
+	############################################
+	### evaluate unigram model 
+	############################################
+	cd train && bash evaluate.sh unigram
+
+evaluate_bigram:
+	############################################
+	### evaluate bigram model 
+	############################################
+	cd train && bash evaluate.sh bigram
+
+evaluate_unibigram:
+	############################################
+	### evaluate unigram+bigram model 
+	############################################
+	cd train && bash evaluate.sh uni+bigram
+
+

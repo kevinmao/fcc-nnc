@@ -2,6 +2,7 @@
 *.dot
 *.log
 *.pyc
+alpha-beta.txt
 mallet-data/bigram/
 mallet-data/uni+bigram/
 mallet-data/unigram/
