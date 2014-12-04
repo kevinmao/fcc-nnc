@@ -5,18 +5,25 @@ source ../config.sh
 
 # training data
 fv=${1:-unigram}
-Data="${Mallet_Data}/$fv"
-trainData="${Data}/train.mallet"
-evaluator="${Data}/evaluator.mallet"
-doc_topics="${Data}/doc_topics.txt"
-topic_docs="${Data}/topic_docs.txt"
-topic_keys="${Data}/topic_keys.txt"
-word_topic_counts="${Data}/word_topic_counts.txt"
+InData="${Mallet_Data}/$fv"
+trainData="${InData}/train.mallet"
 
 #######################################
 # training with mallet 
 #######################################
 for numTopics in {10..50..10}; do
+
+# set output
+OutData="${InData}/${numTopics}"
+mkdir -p ${OutData}
+evaluator="${OutData}/evaluator.mallet"
+doc_topics="${OutData}/doc_topics.txt"
+topic_docs="${OutData}/topic_docs.txt"
+topic_keys="${OutData}/topic_keys.txt"
+word_topic_counts="${OutData}/word_topic_counts.txt"
+rm -f ${evaluator} ${doc_topics} ${topic_docs} ${topic_keys} ${word_topic_counts}
+
+# train by num-of-topics
 ${Mallet_Home}/bin/mallet train-topics \
 	--num-iterations 1000 \
 	--optimize-interval 25 \
