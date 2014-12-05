@@ -11,5 +11,16 @@ train
 
 3. Train
 
-    * Split data into 80% training and 20% testing
- 
+    * Train three sets of features on 80% data         
+        * unigram only
+        * bigram only
+        * unigram + bigram
+        
+4. Evaluate
+
+    * Evaluate three sets of features on 20% data         
+        * unigram only
+        * bigram only
+        * unigram + bigram
+        
+        

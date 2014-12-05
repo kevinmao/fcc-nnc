@@ -8,7 +8,7 @@ feature
         * One document per line
         * Each line has three fields separated by tab
             * [doc-id] [doc-category] [doc-body]
-    * Three set of features          
+    * Three sets of features          
         * unigram only
         * bigram only
         * unigram + bigram

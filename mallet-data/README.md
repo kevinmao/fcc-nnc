@@ -3,7 +3,7 @@ mallet-data
 
 1. Generate features in mallet format   
 
-    * Three set of features          
+    * Three sets of features          
         * unigram only
         * bigram only
         * unigram + bigram
