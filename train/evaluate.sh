@@ -19,8 +19,8 @@ printmsg "START numTopics=${numTopics}"
 OutData="${InData}/${numTopics}"
 mkdir -p ${OutData}
 evaluator="${OutData}/evaluator.mallet"
-doc_probs="${OutData}/doc_probs.txt"
-prob="${OutData}/prob.txt"
+doc_probs="${OutData}/evaluate.doc_probs.txt"
+prob="${OutData}/evaluate.prob.txt"
 rm -f ${doc_probs} ${prob}
 
 # test by num-of-topics
