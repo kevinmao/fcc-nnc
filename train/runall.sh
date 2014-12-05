@@ -17,6 +17,10 @@ nohup time make "${action}" > $LOG/${action}.log.${ts}
 action="evaluate_${fv}"
 nohup time make "${action}" > $LOG/${action}.log.${ts}
 
+# infer
+action="infer_${fv}"
+nohup time make "${action}" > $LOG/${action}.log.${ts}
+
 # doclen
 action="doclen_${fv}"
 nohup time make "${action}" > $LOG/${action}.log.${ts}
