@@ -43,8 +43,8 @@ def clean(text):
     stopwords = load_stopwords(stopword_file)
     word_list = [ w for w in word_list if not w in stopwords ]
 
-    # single char
-    word_list = [ w for w in word_list if len(w) >1 ]
+    # len==2 words
+    word_list = [ w for w in word_list if len(w) > 2 ]
     
     # encoding char
     word_list = [ w.encode('utf-8') for w in word_list ]
