@@ -6,6 +6,7 @@ source ../config.sh
 # training data
 InData="${Mallet_Data}/bigram"
 trainData="${InData}/train.mallet"
+testData="${InData}/test.mallet"
 
 #######################################
 # light-weight pipe line
@@ -56,8 +57,8 @@ ${Mallet_Home}/bin/mallet evaluate-topics \
 # calculate document lengths
 #######################################
 printmsg "START doclen"
-testdoc_lengths="${InData}/testdoc_lengths.txt"
-rm -f ${testdoc_lengths}
+doc_lengths="${testData}.doc_lengths.txt"
+rm -f ${doc_lengths}
 ${Mallet_Home}/bin/mallet run cc.mallet.util.DocumentLengths \
-    --input ${testData} > ${testdoc_lengths}
+    --input ${testData} > ${doc_lengths}
 

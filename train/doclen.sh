@@ -12,9 +12,9 @@ testData="${InData}/test.mallet"
 # calculate document lengths
 #######################################
 printmsg "START $fv"
-testdoc_lengths="${InData}/testdoc_lengths.txt"
-rm -f ${testdoc_lengths}
+doc_lengths="${testData}.doc_lengths.txt"
+rm -f ${doc_lengths}
 
 ${Mallet_Home}/bin/mallet run cc.mallet.util.DocumentLengths \
-    --input ${testData} > ${testdoc_lengths}
+    --input ${testData} > ${doc_lengths}
 
