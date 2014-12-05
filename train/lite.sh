@@ -3,15 +3,18 @@
 # global vars
 source ../config.sh
 
+# params
+fv=${1:-unigram}
+numTopics=${2:-5}
+
 # training data
-InData="${Mallet_Data}/bigram"
+InData="${Mallet_Data}/$fv"
 trainData="${InData}/train.mallet"
 testData="${InData}/test.mallet"
 
 #######################################
 # light-weight pipe line
 #######################################
-numTopics=10
 OutData="${InData}/lite"
 mkdir -p ${OutData}
 
