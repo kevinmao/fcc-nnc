@@ -13,6 +13,8 @@ trainData="${InData}/train.mallet"
 #######################################
 for numTopics in {10..50..10}; do
 
+printmsg "START numTopics=${numTopics}"
+
 # set output
 OutData="${InData}/${numTopics}"
 mkdir -p ${OutData}

@@ -4,7 +4,7 @@
 source ../config.sh
 
 # training data
-InData="${Mallet_Data}/unigram"
+InData="${Mallet_Data}/bigram"
 trainData="${InData}/train.mallet"
 
 #######################################
@@ -17,6 +17,7 @@ mkdir -p ${OutData}
 #######################################
 # train
 #######################################
+printmsg "START train"
 evaluator="${OutData}/evaluator.mallet"
 doc_topics="${OutData}/doc_topics.txt"
 topic_docs="${OutData}/topic_docs.txt"
@@ -40,6 +41,7 @@ ${Mallet_Home}/bin/mallet train-topics \
 #######################################
 # evaluate
 #######################################
+printmsg "START evaluate"
 doc_probs="${OutData}/doc_probs.txt"
 prob="${OutData}/prob.txt"
 rm -f ${doc_probs} ${prob}
@@ -53,6 +55,7 @@ ${Mallet_Home}/bin/mallet evaluate-topics \
 #######################################
 # calculate document lengths
 #######################################
+printmsg "START doclens"
 testdoc_lengths="${InData}/testdoc_lengths.txt"
 rm -f ${testdoc_lengths}
 ${Mallet_Home}/bin/mallet run cc.mallet.util.DocumentLengths \

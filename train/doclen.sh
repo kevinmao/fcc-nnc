@@ -11,6 +11,7 @@ testData="${InData}/test.mallet"
 #######################################
 # calculate document lengths
 #######################################
+printmsg "START $fv"
 testdoc_lengths="${InData}/testdoc_lengths.txt"
 rm -f ${testdoc_lengths}
 
