@@ -55,7 +55,7 @@ ${Mallet_Home}/bin/mallet evaluate-topics \
 #######################################
 # calculate document lengths
 #######################################
-printmsg "START doclens"
+printmsg "START doclen"
 testdoc_lengths="${InData}/testdoc_lengths.txt"
 rm -f ${testdoc_lengths}
 ${Mallet_Home}/bin/mallet run cc.mallet.util.DocumentLengths \

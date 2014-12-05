@@ -76,4 +76,22 @@ evaluate_unibigram:
 	############################################
 	cd train && bash evaluate.sh uni+bigram
 
+doclen_unigram:
+	############################################
+	### testdoc_len unigram model 
+	############################################
+	cd train && bash doclen.sh unigram
+
+doclen_bigram:
+	############################################
+	### testdoc_len bigram model 
+	############################################
+	cd train && bash doclen.sh bigram
+
+doclen_unibigram:
+	############################################
+	### testdoc_len unigram+bigram model 
+	############################################
+	cd train && bash doclen.sh uni+bigram
+
 
