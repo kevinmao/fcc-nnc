@@ -2,6 +2,9 @@
 *.dot
 *.log
 *.pyc
+ww.debug
+ww.mallet
+ww.txt
 logs/
 mallet-data/bigram/
 mallet-data/uni+bigram/

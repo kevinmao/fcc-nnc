@@ -35,7 +35,7 @@ for line in sys.stdin:
         ostr = '\t'.join([id, target, text])
     else:
         bigrams_tuples = [ b for b in zip(text.split()[:-1], text.split()[1:]) ]
-        bigrams = [ k+'|'+v for k,v in bigrams_tuples ]
+        bigrams = [ k+'__'+v for k,v in bigrams_tuples ]
         ostr_bigram = ' '.join(bigrams) 
 
         if ftype == 'bigram':
