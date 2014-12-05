@@ -19,6 +19,7 @@ printmsg "START numTopics=${numTopics}"
 OutData="${InData}/${numTopics}"
 mkdir -p ${OutData}
 evaluator="${OutData}/evaluator.mallet"
+inferencer="${OutData}/inferencer.mallet"
 doc_topics="${OutData}/doc_topics.txt"
 topic_docs="${OutData}/topic_docs.txt"
 topic_keys="${OutData}/topic_keys.txt"
@@ -27,16 +28,17 @@ rm -f ${evaluator} ${doc_topics} ${topic_docs} ${topic_keys} ${word_topic_counts
 
 # train by num-of-topics
 ${Mallet_Home}/bin/mallet train-topics \
-	--alpha 50.0 \
-	--beta 0.01 \
-	--num-iterations 600 \
-	--num-threads 5 \
-	--num-topics ${numTopics} \
-	--input ${trainData} \
-	--evaluator-filename ${evaluator} \
-	--output-doc-topics ${doc_topics} \
-	--output-topic-docs ${topic_docs} \
-	--output-topic-keys ${topic_keys} \
-	--word-topic-counts-file ${word_topic_counts} 
+    --alpha 50.0 \
+    --beta 0.01 \
+    --num-iterations 600 \
+    --num-threads 5 \
+    --num-topics ${numTopics} \
+    --input ${trainData} \
+    --evaluator-filename ${evaluator} \
+    --inferencer-filename ${inferencer} \
+    --output-doc-topics ${doc_topics} \
+    --output-topic-docs ${topic_docs} \
+    --output-topic-keys ${topic_keys} \
+    --word-topic-counts-file ${word_topic_counts} 
 done
 

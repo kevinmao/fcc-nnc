@@ -40,6 +40,12 @@ import:
 	############################################
 	cd train && bash import.sh
 
+lite:
+	############################################
+	### lite weight pipeline test
+	############################################
+	cd train && bash lite.sh
+
 train_unigram:
 	############################################
 	### train unigram model 
@@ -75,6 +81,24 @@ evaluate_unibigram:
 	### evaluate unigram+bigram model 
 	############################################
 	cd train && bash evaluate.sh uni+bigram
+
+infer_unigram:
+	############################################
+	### infer unigram model 
+	############################################
+	cd train && bash infer.sh unigram
+
+infer_bigram:
+	############################################
+	### infer bigram model 
+	############################################
+	cd train && bash infer.sh bigram
+
+infer_unibigram:
+	############################################
+	### infer unigram+bigram model 
+	############################################
+	cd train && bash infer.sh uni+bigram
 
 doclen_unigram:
 	############################################
