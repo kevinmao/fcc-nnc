@@ -1,7 +1,7 @@
 clear; close all; clc;
 
 % load data
-DATA = dlmread ('perplexity.txt', '\t', 1, 0);
+DATA = dlmread ('../report/perplexity.txt', '\t', 1, 0);
 numTopic = DATA(:,1);
 unigram = log(DATA(:,2));
 bigram = log(DATA(:,3));
