@@ -13,17 +13,11 @@ output=${Report_Data}/perplexity.txt
 rm -f ${output}
 
 # process each file
-re='^[0-9]+$'
 for fv in `echo ${Fv_List}`; do
     printmsg START $fv
     pplx="${Mallet_Data}/${fv}/perplexity.txt"
     rm -f ${pplx}; touch ${pplx}
-    for dir in `ls -d ${Mallet_Data}/${fv}/*/`; do
-        numTopics=$(basename $dir)
-        if ! [[ $numTopics =~ $re ]] ; then
-            echo "error: [$numTopics] Not a number"
-            continue
-        fi    
+    for numTopics in {5..50..5}; do
         python perplexity.py \
             -p ${Mallet_Data}/${fv}/${numTopics}/evaluate.doc_probs.txt \
             -l ${Mallet_Data}/${fv}/test.mallet.doc_lengths.txt \
@@ -44,3 +38,4 @@ for fv in `echo ${Fv_List}`; do
 done
 echo "Created ${output}"
 rm -f ${tmp} ${tmp}.*
+
