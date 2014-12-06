@@ -47,6 +47,11 @@ export Fv_List="unigram bigram uni+bigram"
 export Mallet_Data=$Project_Home/mallet-data
 
 ############################################
+### report and visualization
+############################################
+export Report_Data=$Project_Home/report
+
+############################################
 ### functions
 ############################################
 function printmsg {
