@@ -11,7 +11,7 @@ trainData="${InData}/train.mallet"
 #######################################
 # training with mallet 
 #######################################
-for numTopics in {10..50..10}; do
+for numTopics in {5..50..5}; do
 
 printmsg "START numTopics=${numTopics}"
 
