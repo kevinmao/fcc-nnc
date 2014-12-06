@@ -124,4 +124,20 @@ perplexity:
 	############################################
 	cd viz && bash perplexity.sh 
 
+topic_dist:
+	############################################
+	### calculate topic dist.
+	############################################
+	echo "cd viz && octave topic_dist.m"
+	echo "cd viz && octave plot_topic_dist.m"
+
+topwords:
+	############################################
+	### Get word counts for top 5 topics
+	### inferred by the trained model
+	############################################
+	cd viz && bash topwords.sh
+
+
+
 
