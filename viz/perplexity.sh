@@ -10,7 +10,7 @@ for fv in `echo ${Fv_List}`; do
     printmsg START $fv
     pplx="${Mallet_Data}/${fv}/perplexity.txt"
     rm -f ${pplx}; touch ${pplx}
-    for numTopics in {10..50..10}; do
+    for numTopics in `ls -d ${Mallet_Data}/${fv}/*/`; do
         python perplexity.py \
             -p ${Mallet_Data}/${fv}/${numTopics}/evaluate.doc_probs.txt \
             -l ${Mallet_Data}/${fv}/test.mallet.doc_lengths.txt \

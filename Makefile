@@ -118,4 +118,10 @@ doclen_unibigram:
 	############################################
 	cd train && bash doclen.sh uni+bigram
 
+perplexity:
+	############################################
+	### calculate perplexity scores
+	############################################
+	cd viz && bash perplexity.sh 
+
 
