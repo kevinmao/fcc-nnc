@@ -138,6 +138,10 @@ topwords:
 	############################################
 	cd viz && bash topwords.sh
 
+primarytopics:
 
-
+	############################################
+	### primary topic to num-of-docs
+	############################################
+	cd viz && bash primarytopics.sh
 
