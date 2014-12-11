@@ -5,6 +5,11 @@
 ww.debug
 ww.mallet
 ww.txt
+octave-workspace
+.DS_Store
+report/fcc-nnc-report*
+report/bibfile.bib
+report/ps/
 logs/
 mallet-data/bigram/
 mallet-data/uni+bigram/
