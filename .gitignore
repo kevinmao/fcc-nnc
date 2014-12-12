@@ -7,9 +7,11 @@ ww.mallet
 ww.txt
 octave-workspace
 .DS_Store
-report/fcc-nnc-report*
+report/facts.txt
+report/lda-plate-notation.png
+report/references.bib
 report/bibfile.bib
-report/ps/
+report/fcc-nnc-report*
 logs/
 mallet-data/bigram/
 mallet-data/uni+bigram/
