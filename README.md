@@ -109,9 +109,3 @@ fcc-net-neutrality-comments
     ```
     make topwords
     ```
- 8. Create training data
-
-    ```
-    make genfeat
-    ```
-  
