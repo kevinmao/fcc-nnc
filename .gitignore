@@ -12,8 +12,12 @@ report/lda-plate-notation.png
 report/references.bib
 report/bibfile.bib
 report/fcc-nnc-report*
+report/topwords.txt0
 logs/
 mallet-data/bigram/
 mallet-data/uni+bigram/
 mallet-data/unigram/
+mallet-data/Z/
 mallet-data.v?/
+scripts00/
+test/

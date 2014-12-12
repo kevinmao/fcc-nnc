@@ -36,8 +36,11 @@ def main():
 
     
     # top 5 topic dist. determined by plot_topic_dist.m
-    top_topics = ['8','4','15','9','5']
+    # top_topics = ['8','4','15','9','5']
     # top_topics = ['8','4','15','9','5','11','7']
+    # index starting from zero -1
+    # top_topics = ['7','3','14','8','4','10', '6', '12']
+    top_topics = ['7','3','14','10']
 
     # top words
     top_words = set()
